@@ -15,5 +15,7 @@
     "jquery": true,
     "mocha": true
   },
-  "rules": {}
+  "rules": {
+    "react/prop-types": 0
+  }
 }
