@@ -11,12 +11,12 @@ const resolvers = {
   Query: {
     hi() {
       return "Hello Level up";
-    },
-  },
+    }
+  }
 };
 
 const schema = makeExecutableSchema({
   typeDefs,
-  resolvers,
+  resolvers
 });
 createApolloServer({ schema });
